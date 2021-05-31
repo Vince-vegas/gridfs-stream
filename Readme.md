@@ -85,6 +85,7 @@ var writestream = gfs.createWriteStream([options]);
 fs.createReadStream('/some/path').pipe(writestream);
 ```
 
+## gridfs-stream Options
 Options may contain zero or more of the following options, for more information see [GridStore](http://mongodb.github.com/node-mongodb-native/api-generated/gridstore.html):
 ```js
 {
